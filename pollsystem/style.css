@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.poll-list {
+    margin-top: 20px;
+}
+
+.poll-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.create-btn, .vote-btn, .back-btn, .add-btn, .submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-btn {
+    background-color: #666;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.option {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #4CAF50;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e3f2e3;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.view-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
